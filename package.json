@@ -1,0 +1,27 @@
+{
+  "name": "php2json",
+  "version": "0.9.0",
+  "description": "Parse PHP serialize into JSON format",
+  "type": "module",
+  "main": "src/php2json.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evergreentype/php2json.git"
+  },
+  "keywords": [
+    "php",
+    "unserialize"
+  ],
+  "bin": {
+    "php2json": "src/php2json.js"
+  },
+  "author": "Artem Ilyumzhinov",
+  "license": "MIT",
+  "homepage": "https://github.com/evergreentype/php2json",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

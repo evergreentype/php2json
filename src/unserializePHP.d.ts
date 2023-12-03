@@ -1,0 +1,1 @@
+export function unserializePHP(str: string, opts: { decode: 'plain' | 'base64' }): any;
